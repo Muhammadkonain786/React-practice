@@ -58,9 +58,9 @@ product.map((item) => {
 })} */}
     {/* <Button handler={handler} lable="click me"/> */}
     {/* <Button handler={handler2} lable="more details"/> */}
-    {/* <App /> */}
+    <App title="Click me"/>
     {/* // <Garage/> */}
-    {
+    {/* {
       product.map((item) => {
         return (
           <Productcard
@@ -73,6 +73,6 @@ product.map((item) => {
         )
       })
     }
-    <Productcard/>
+    <Productcard/> */}
   </StrictMode>,
 )
